@@ -6,6 +6,7 @@
     font-style: normal;
     font-family: 'bebas neue';
     src: url('BebasNeue-Regular.ttf') format(truetype);
+   
 }
 :root{
     --cor0: #c5ebd6;
