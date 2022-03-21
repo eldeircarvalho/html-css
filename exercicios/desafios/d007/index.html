@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imgem Flexível</h1>
+    <p>Mova o tamanho da janela para ver a imagem mudar</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagem/lista-p.png" type="image/png">
+        <source media="(max-width:1150px)" srcset="imagem/lista-m.png" type="image/png">
+        <img src="imagem/lista-g.png" alt="lista de reis sumerios">
+    </picture>
+</body>
+</html>

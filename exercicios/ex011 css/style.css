@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color:radial-gradient(circle, red, yellow, green); 
+    color: rgb(155, 28, 60);
+    
+    font-family: Arial, Helvetica, sans-serif ;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: rgba(8, 11, 179, 0.911);
+}
+p{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+a{
+    color: rgb(228, 6, 6);
+    text-decoration:double;
+  }
